@@ -6,5 +6,5 @@ def generate_final_response(user_input, memories, task_plan, tool_outputs) -> st
                 return output.strip()
 
     # Fallback message
-    return "I'm not sure how to help with that yet, but I'm learning!"
+    return "I'm not sure how to help with that yet, however I'm learning!"
 
