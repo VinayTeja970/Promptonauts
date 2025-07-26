@@ -13,7 +13,7 @@ def save_memory(memory_entries):
     with open(MEMORY_FILE, "w") as f:
         json.dump(memory_entries, f, indent=2)
 
-def store_memory(entry):  # ← Make sure this exists
+def store_memory(entry):  # ←  sure this exists
     memory = load_memory()
     memory.append(entry)
     save_memory(memory)
